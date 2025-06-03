@@ -1,9 +1,9 @@
 function Welcome() {
     return (
-        <div>
+        <>
             <h3>Welcome React</h3>
             <h4>How are You?</h4>
-        </div>
+        </> // this is known as fragment. Div tag can also be used instead of this fragmentation
     );
 }
 export default Welcome
