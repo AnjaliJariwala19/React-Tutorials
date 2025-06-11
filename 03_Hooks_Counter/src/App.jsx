@@ -10,6 +10,7 @@ import './App.css'
 function App() {
 
   let [counter, setCounter] = useState(5) //react hook
+  //Here default is 5 => useState(5)
 
   //let counter = 5;
 
