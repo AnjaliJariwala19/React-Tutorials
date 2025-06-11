@@ -6,11 +6,11 @@ Virtual DOM: Virtual DOM is exactly like DOM and it has all the properties that 
 
 React Fibre: A new implementation of the core algorithm in React for rendering and reconciling components.
 Its headline feature is incremental rendering: the ability to split rendering work into chunks and spread it out over multiple frames. Other key features include the ability to pause, abort, or reuse work as new updates come in; the ability to assign priority to different types of updates; and new concurrency primitives.
--> A primary goal of Fiber is to enable React to take advantage of scheduling. Specifically, we need to be able to:
--pause work and come back to it later.
--assign priority to different types of work.
--reuse previously completed work.
--abort work if it's no longer needed.
+-> A primary goal of Fiber is to enable React to take advantage of scheduling. Specifically, we need to be able to:<br>
+-pause work and come back to it later.<br>
+-assign priority to different types of work.<br>
+-reuse previously completed work.<br>
+-abort work if it's no longer needed.<br>
 
 Reconciliation: Reconciliation is the process of comparing the virtual (REACT) DOM with the actual (Browser) DOM and updating the actual DOM to match the virtual DOM. This process is done by React to ensure that the UI is updated correctly and efficiently. 
 The algorithm React uses to differ one tree with another to determine which parts need to be changed.
