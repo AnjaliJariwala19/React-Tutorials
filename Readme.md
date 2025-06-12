@@ -1,4 +1,4 @@
-<!-- When you clone folders from GitHub don't forget to install node modules for them to run using 'npm install'. -->
+NOTE: When you clone folders from GitHub don't forget to install node modules for them to run using 'npm install'.
 
 
 Some topics only for understanding not for application(Interview POV). They are :-
