@@ -1,3 +1,6 @@
+<!-- When you clone folders from GitHub don't forget to install node modules for them to run using 'npm install'. -->
+
+
 Some topics only for understanding not for application(Interview POV). They are :-
 
 Hooks: React Hooks are functions that allow functional components in React to manage state, handle side effects, and access other React features without needing class components. React Hooks are tools that let you add features such as keeping track of data (state) and doing things when your component loads or updates, all from within function components. This means you can do a lot without needing to write class components.
