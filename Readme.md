@@ -1,5 +1,10 @@
 NOTE: When you clone folders from GitHub don't forget to install node modules for them to run using 'npm install'.
 
+React is a library and not a framework.
+
+A library is a collection of pre-written code modules, functions, and classes that a developer can use within their application to perform specific tasks. 
+
+A framework, on the other hand, provides a pre-designed structure or architecture for building applications. It's like a blueprint or scaffolding for your application.
 
 Some topics only for understanding not for application(Interview POV). They are :-
 
