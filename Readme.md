@@ -1,3 +1,7 @@
+Shortcuts:
+imr -> Import React
+sfc ->	Stateless Function Component
+
 NOTE: When you clone folders from GitHub don't forget to install node modules for them to run using 'npm install'.
 
 React is a library and not a framework.
