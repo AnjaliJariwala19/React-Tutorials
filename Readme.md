@@ -2,6 +2,10 @@ Shortcuts:
 imr -> Import React
 sfc ->	Stateless Function Component
 
+Context API: Context API is used to pass global variables anywhere in the code without the prop drilling. It helps when there is a need for sharing state between a lot of nested components. It exclusively features only for React.
+
+State Management: State management is a critical concept when working with React. React components can hold local state, but as applications grow, managing state across multiple components can become complex. To help manage this complexity, React provides several tools: Hooks, Context API, and Redux.
+
 NOTE: When you clone folders from GitHub don't forget to install node modules for them to run using 'npm install'.
 
 React is a library and not a framework.
