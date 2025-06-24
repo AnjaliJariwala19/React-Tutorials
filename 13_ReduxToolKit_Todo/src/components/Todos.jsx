@@ -28,7 +28,7 @@ function Todos() {
             <ul className="list-none">
                 {todos.map((todo) => (
                     <li
-                        className="mt-4 flex justify-between items-center bg-zinc-800 px-4 py-2 rounded"
+                        className="mt-4 mx-auto flex justify-between items-center bg-zinc-800 px-4 py-2 rounded w-2xl"
                         key={todo.id}
                     >
                         {editingId === todo.id ? (
