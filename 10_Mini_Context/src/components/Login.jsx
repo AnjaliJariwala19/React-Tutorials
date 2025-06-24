@@ -5,6 +5,7 @@ const Login = () => {
     const [username,setUsername] = useState('')
     const [password,setPassword] = useState('')
 
+    //In React Applications, sometimes managing state across deeply nested components can become very difficult. The useContext hook offers a simple and efficient solution to share state between components without the need for prop drilling
     const {setUser} = useContext(UserContext)
 
     function handleSubmit(e){
