@@ -2,6 +2,14 @@ Shortcuts:
 imr -> Import React
 sfc ->	Stateless Function Component
 
+Environment Variables: They are named values that store information accessible by running processes. These variables are typically set outside the application's code. They are saved in root i.e. home directory of the project with name '.env'. It is never shipped on Github or production.
+Accessing of the env var differs from react App to vite to node etc. The import process can be seen from documentation itself. For Vite:
+-> VITE_SOME_KEY=123
+   DB_PASSWORD=foobar
+-> To prevent accidentally leaking env variables to the client, only variables prefixed with VITE_ are exposed to your Vite-processed code
+->  console.log(import.meta.env.VITE_SOME_KEY) // "123"
+console.log(import.meta.env.DB_PASSWORD) // undefined
+
 Context API: Context API is used to pass global variables anywhere in the code without the prop drilling. It helps when there is a need for sharing state between a lot of nested components. It exclusively features only for React.
 
 State Management: State management is a critical concept when working with React. React components can hold local state, but as applications grow, managing state across multiple components can become complex. To help manage this complexity, React provides several tools: Hooks, Context API, and Redux.
