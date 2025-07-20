@@ -5,6 +5,7 @@ const Button = ({
     type = 'button',
     bgColor = 'bg-blue-600',
     textColor = 'text-white',
+    className = '',
     ...props //for user's additional property
 }) => {
     return (

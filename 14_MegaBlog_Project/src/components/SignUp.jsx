@@ -50,10 +50,10 @@ const SignUp = () => {
                     <div className='space-y-5'>
                         <Input label="Name:"
                             placeholder="Enter Full Name"
-                            {...register, ("name", {
-                                required: true,
-                            })} //...register -> It avoids over writing the register function with the new input value.
-                        />
+                            {...register ("name", {
+                                required: true
+                            })} />
+                         {/*...register -> It avoids over writing the register function with the new input value. */}
 
                         <Input label="Email: " placeholder="Enter your Email" type="email"
                             {...register("email", {
@@ -67,7 +67,7 @@ const SignUp = () => {
                         />
 
                         <Input label="Password: " type="password" placeholder="Enter Password"
-                            {...register, ("password", {
+                            {...register("password", {
                                 required: true,
                             })} />
 

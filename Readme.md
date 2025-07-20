@@ -1,4 +1,6 @@
 Shortcuts:
+<!-- Hello Guyzzzss how are you all. Today's hot favourite topic will be WAR. Is WORLD WAR III happening ? Stay Tuned. -->
+
 imr -> Import React
 sfc ->	Stateless Function Component
 
